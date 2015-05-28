@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title> freewall demo getting started</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="js/jquery-1.10.2.min.js"></script>
+  <script src="plugins/freewall.js"></script>
+  <style type="text/css">
+    #container {
+      width: 80%;
+      margin: auto;
+    }
+    .item {
+      background: rgb(135, 199, 135);
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div class="brick"><img src="img/dammy/a.png" alt=""></div>
+    <div class="brick"><img src="img/dammy/b.png" alt=""></div>
+    <div class="brick"><img src="img/dammy/c.png" alt=""></div>
+    <div class="brick"><img src="img/dammy/d.png" alt=""></div>
+    <div class="brick"><img src="img/dammy/e.png" alt=""></div>
+    <div class="brick"><img src="img/dammy/f.png" alt=""></div>
+    <div class="brick"><img src="img/dammy/g.png" alt=""></div>
+  </div>
+  <script>
+    $(function() {
+      var wall = new Freewall("#container");
+      wall.reset({
+        selector: '.brick',
+        animate: true,
+        cellW: 160,
+        cellH: 160,
+        delay: 50,
+        onResize: function() {
+          wall.fitWidth();
+        }
+      });
+    });
+  </script>
+</body>
+</html>
