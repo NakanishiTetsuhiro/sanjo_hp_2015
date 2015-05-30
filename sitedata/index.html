@@ -1,40 +1,47 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-  <title> freewall demo getting started</title>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script src="js/jquery-1.10.2.min.js"></script>
+  <title>沖縄国際大学産業情報学科</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Freewall CSS -->
+  <link rel="stylesheet" type="text/css" href="plugins/css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/my.css">
+  <script src="js/jquery-1.11.3.min.js"></script>
   <script src="plugins/freewall.js"></script>
-  <style type="text/css">
-    #container {
-      width: 80%;
-      margin: auto;
-    }
-    .item {
-      background: rgb(135, 199, 135);
-    }
-  </style>
 </head>
 <body>
-  <div id="container">
-    <div class="brick"><img src="img/dammy/a.png" alt=""></div>
-    <div class="brick"><img src="img/dammy/b.png" alt=""></div>
-    <div class="brick"><img src="img/dammy/c.png" alt=""></div>
-    <div class="brick"><img src="img/dammy/d.png" alt=""></div>
-    <div class="brick"><img src="img/dammy/e.png" alt=""></div>
-    <div class="brick"><img src="img/dammy/f.png" alt=""></div>
-    <div class="brick"><img src="img/dammy/g.png" alt=""></div>
+  <div id="freewall">
+    <div class="brick m_size_01 img_box"><img src="img/top_dammy_01.png" alt="dammy_img"></div>
+    <div class="brick l_size_01 img_box"><img src="img/top_dammy_02.png" alt="dammy_img"></div>
+    <div class="brick s_size_01 img_box"><img src="img/top_img_01.png" alt="dammy_img"></div>
+    <div class="brick m_size_02 img_box"><img src="img/top_img_02.png" alt="dammy_img"></div>
+    <div class="brick m_size_03 img_box"><img src="img/top_img_03.png" alt="dammy_img"></div>
+    <div class="brick l_size_01 img_box"><img src="img/top_img_04.png" alt="dammy_img"></div>
+    <div class="brick m_size_01 img_box"><img src="img/top_img_05.png" alt="dammy_img"></div>
+    <div class="brick m_size_01 img_box"><img src="img/top_dammy_03.png" alt="dammy_img"></div>
+    <div class="brick m_size_02 img_box"><img src="img/top_img_06.png" alt="dammy_img"></div>
+    <div class="brick s_size_01 img_box"><img src="img/top_dammy_04.png" alt="dammy_img"></div>
+    <div class="brick s_size_01 img_box"><img src="img/top_dammy_05.png" alt="dammy_img"></div>
   </div>
   <script>
     $(function() {
-      var wall = new Freewall("#container");
+      // var temp = "<div class='brick' style='width:{width}px; height: {height}px; background-image: url(img/dammy/{index}.png)'></div>";
+      // var w = 200, h = 200, html = '', limitItem = 11;
+      // for (var i = 0; i < limitItem; ++i) {
+      //   html += temp.replace(/\{height\}/g, h).replace(/\{width\}/g, w).replace("{index}", i + 1);
+      // }
+      // $("#freewall").html(html);
+
+      var wall = new Freewall("#freewall");
+      wall.fitWidth();
       wall.reset({
         selector: '.brick',
         animate: true,
-        cellW: 160,
-        cellH: 160,
-        delay: 50,
+        cellW: 196,
+        cellH: 196,
+        delay: 30,
         onResize: function() {
           wall.fitWidth();
         }

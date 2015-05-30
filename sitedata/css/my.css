@@ -1,0 +1,38 @@
+body {
+  margin: 32px;
+  background: #EE8322;
+}
+
+.s_size_01 {
+  width: 196px;
+  height: 196px;
+}
+
+.m_size_01 {
+  width: 196px;
+  height: 400px;
+  /*バックグラウンドで画像を表示させるとき*/
+/*  background: url("../img/dammy/1.png");
+  -moz-background-size:cover;
+  background-size:cover;*/
+}
+
+.m_size_02 {
+  width: 400px;
+  height: 196px;
+}
+
+.m_size_03 {
+  width: 604px;
+  height: 196px;
+}
+
+.l_size_01 {
+  width: 400px;
+  height: 400px;
+}
+
+.img_box img {
+  height: 100%;
+  width: 100%;
+}
