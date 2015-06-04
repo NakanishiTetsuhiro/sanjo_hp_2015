@@ -9,6 +9,7 @@
   <link rel="stylesheet" type="text/css" href="plugins/css/style.css">
   <!-- Freewall CSS end-->
   <link rel="stylesheet" type="text/css" href="css/my.css">
+  <link rel="stylesheet" media="(max-width: 414px)" href="max-414px.css">
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="plugins/freewall.js"></script>
 </head>
@@ -58,8 +59,8 @@
       wall.reset({
         selector: '.brick',
         animate: true,
-        cellW: 196,
-        cellH: 196,
+        // cellW: 196,
+        // cellH: 196,
         delay: 30,
         onResize: function() {
           wall.fitWidth();
