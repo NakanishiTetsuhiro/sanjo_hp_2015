@@ -32,7 +32,12 @@ body {
   height: 400px;
 }
 
+.img_box {
+  background: #EE8322;
+}
+
 .img_box img {
+  /*height: auto;*/
   height: 100%;
   width: 100%;
 }
