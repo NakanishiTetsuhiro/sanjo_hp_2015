@@ -1,18 +1,16 @@
 /*----------------------
   COMMON
 ----------------------*/
-html {
-  font-family: "Kozuka Gothic Pro B", "Hiragino Kaku Gothic ProN", Helvetica, Tahoma;
-}
-
 body {
+  font-family: Tahoma, "メイリオ", Meiryo, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", sans-serif;
+  /*font-family: 'Kozuka Gothic Pro B', 'Hiragino Kaku Gothic ProN';*/
   margin: 16px;
   background: #EE8322;
   color: #262626;
 }
 
 h2 {
-  font-family: 'Arial Black';
+  /*font-family: 'Arial Black';*/
   color: #EE8322;
 }
 
@@ -67,17 +65,18 @@ li {
 }
 
 .img_box {
+  /*display: block;*/
   background: #EE8322;
 }
 
 .img_box img {
-  /*height: auto;*/
-  /*height: 100%;*/
+  height: auto;
   width: 100%;
 }
 
 .logo_box {
   width: 100%;
+  height: 100%;
 }
 
 
@@ -90,25 +89,26 @@ li {
 
 .nav_pc img{
   width: 100%;
+  margin-bottom: 9%;
 }
 
 .nav_pc li {
   position: relative;
   color: #FEF4F3;
   background: #000000;
-  padding: 11px 0 11px;
-  margin-top: 1px;
+  padding: 9.5% 0;
+  margin-bottom: 1px;
 }
 
 .nav_pc li:first-child {
   -webkit-border-radius: 8px 8px 0 0;
           border-radius: 8px 8px 0 0;
-  margin-top: 10px;
 }
 
 .nav_pc li:last-child {
   -webkit-border-radius: 0 0 8px 8px;
           border-radius: 0 0 8px 8px;
+  margin-bottom: 0;
 }
 
 .nav_pc li:hover {

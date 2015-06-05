@@ -44,13 +44,13 @@ body {
 	max-width: 1920px;
 	margin: 0 auto;
 	position: relative;
-	font-family: 'Lato', Helvetica, Arial, Tahoma;
+	/*font-family: 'Lato', Helvetica, Arial, Tahoma;*/
 	/*text-shadow: 1px 1px 0 rgba(0,0,0,0.3);*/
 }
 ol, ul {
 	/*padding: 0 10px;*/
 	/*margin: 0 10px;*/
-	line-height: 1.5em;
+	/*line-height: 1.5em;*/
 }
 h1, h2, h3, h4, h5, h6 {
 	/*text-shadow: 1px 1px 0 rgba(0,0,0,0.5);*/
