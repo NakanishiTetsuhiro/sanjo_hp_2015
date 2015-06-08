@@ -1,0 +1,10 @@
+.m_size_01 img {
+  width: 100%;
+  height: auto;
+}
+
+
+.m_size_02 img {
+  width: auto;
+  height: 100%;
+}
