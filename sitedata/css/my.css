@@ -58,7 +58,7 @@ li {
 }
 
 .m_size_01 img{
-  height: 100%;
+  width: 100%;
 }
 
 .m_size_02 {
@@ -67,7 +67,7 @@ li {
 }
 
 .m_size_02 img{
-  width: 100%;
+  height: 100%;
 }
 
 .l_size_01 {
