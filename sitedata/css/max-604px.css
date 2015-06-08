@@ -1,8 +1,21 @@
-/*.nav_pc {
-  height: 400px!important;
+/*----------------------
+  .menubar
+----------------------*/
+.menubar {
+  float: none;
+}
+
+/*body {
+  content: url(../img/logo_okiraku.png);
 }*/
 
-/*.img_box img {
-  height: 100%;
+#freewall {
+  margin-left: auto;
+}
+
+nav {
+  background: #27282c;
+  padding: 20px;
   width: auto;
-}*/
+  margin-bottom: 16px;
+}
