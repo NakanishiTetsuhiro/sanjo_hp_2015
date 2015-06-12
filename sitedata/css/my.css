@@ -50,7 +50,8 @@ li {
 
 .m_size_01 {
   width: 196px;
-  height: 400px;
+  /*height: 400px;*/
+  height: 392px;
   /*バックグラウンドで画像を表示させるとき*/
 /*  background: url("../img/dammy/1.png");
   -moz-background-size:cover;
@@ -62,7 +63,8 @@ li {
 }
 
 .m_size_02 {
-  width: 400px;
+  /*width: 400px;*/
+  width: 392px;
   height: 196px;
 }
 
@@ -71,8 +73,10 @@ li {
 }
 
 .l_size_01 {
-  width: 400px;
-  height: 400px;
+  /*width: 400px;*/
+  width: 392px;
+  /*height: 400px;*/
+  height: 392px;
 }
 
 .l_size_01 img {
@@ -83,6 +87,9 @@ li {
   margin-left: 252px;
 }
 
+.cf:after {
+  clear: both;
+}
 
 /*----------------------
   .menubar
@@ -147,10 +154,71 @@ nav p {
 }
 
 
+
 /*-----------------
-  sanjo_toha
+  sanjo_toha.html
 -----------------*/
-#sanjo_toha article{
-  width: 400px;
-  height: 400px;
+#sanjo_toha {
+  /*width: 784px;*/
+  width: auto;
+  height: 1176px;
+}
+
+#sanjo_toha h1 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFF;
+  background: #EC6C00;
+  -webkit-border-radius: 16px;
+          border-radius: 16px;
+  padding: 8px 8px 8px 16px;
+}
+
+#sanjo_toha p {
+  font-size: 16px;
+  border: 1px solid;
+  -webkit-border-radius: 16px;
+          border-radius: 16px;
+  padding: 8px 16px 8px;
+  margin-bottom: 16px;
+}
+
+.sankaku{
+  width: 0;
+  height: 0;
+  margin: 0 auto;
+  border: 48px solid transparent;
+  border-top: 80px solid #000;
+}
+
+.red_list ul{
+  color: #E50050;
+  margin: 0 auto;
+  float: left;
+}
+
+.red_list img {
+  width: 3.4%;
+  float: left;
+}
+
+.blue_list img {
+  width: 3.5%;
+  float: left;
+}
+
+.blue_list ul{
+  color: #1e2088;
+  margin: 0 auto;
+  float: left;
+}
+
+.red_list, .blue_list {
+  float: left;
+}
+
+.inner_box {
+  margin: 0 auto;
+  width: 100%;
+  float: left;
 }
