@@ -145,3 +145,12 @@ nav p {
 .sponsored img {
   width: 100%;
 }
+
+
+/*-----------------
+  sanjo_toha
+-----------------*/
+#sanjo_toha article{
+  width: 400px;
+  height: 400px;
+}
