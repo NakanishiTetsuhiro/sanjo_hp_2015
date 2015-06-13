@@ -9,7 +9,7 @@ body {
   color: #262626;
 }
 
-h2 {
+#freewall h2 {
   /*font-family: 'Arial Black';*/
   color: #EE8322;
 }
@@ -91,6 +91,10 @@ li {
   clear: both;
 }
 
+section {
+  padding: 16px;
+}
+
 /*----------------------
   .menubar
 ----------------------*/
@@ -166,13 +170,16 @@ article .cover {
   margin: 20px;
 }
 
+/*article h2 {
+  margin-left: 8px;
+}*/
+
 /*-----------------
   .section_01
 -----------------*/
 #sanjo_toha {
   /*width: 784px;*/
   width: auto;
-  height: 1176px;
 }
 
 #sanjo_toha h1 {
@@ -239,6 +246,14 @@ article .cover {
 /*-----------------
   .section_02
 -----------------*/
+
+.section_02 .h2_red {
+  color: #e50050;
+}
+
+.section_02 .h2_blue {
+  color: #1e2088;
+}
 
 /*-----------------
   @media_CSS
