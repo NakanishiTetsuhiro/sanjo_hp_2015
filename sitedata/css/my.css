@@ -14,7 +14,7 @@ h2 {
   color: #EE8322;
 }
 
-a {
+a  {
   position: absolute;
   top: 0;
   left: 0;
@@ -153,11 +153,19 @@ nav p {
   width: 100%;
 }
 
-
-
 /*-----------------
   sanjo_toha.html
 -----------------*/
+article {
+  background: #FFF;
+  margin-left: 252px;
+}
+
+article .cover {
+  overflow: hidden;
+  margin: 20px;
+}
+
 /*-----------------
   .section_01
 -----------------*/
@@ -201,13 +209,15 @@ nav p {
 }
 
 .red_list img {
-  width: 3.4%;
-  float: left;
+  display: table-cell;
+  width: 12px;
+  /*float: left;*/
 }
 
 .blue_list img {
-  width: 3.5%;
-  float: left;
+  display: table-cell;
+  width: 13px;
+  /*float: left;*/
 }
 
 .blue_list ul{
@@ -216,16 +226,79 @@ nav p {
   float: left;
 }
 
-.red_list, .blue_list {
-  float: left;
+.red_list {
+  display: table-cell;
+  width: 50%;
 }
 
-.inner_box {
-  margin: 0 auto;
-  width: 100%;
-  float: left;
+.blue_list {
+  display: table-cell;
+  width: 50%;
 }
 
 /*-----------------
   .section_02
 -----------------*/
+
+/*-----------------
+  @media_CSS
+-----------------*/
+@media screen and (max-width: 568px) {
+  /*----------------------
+    .menubar
+  ----------------------*/
+  .menubar {
+    float: none;
+  }
+
+  /*body {
+    content: url(../img/logo_okiraku.png);
+  }*/
+
+  #freewall {
+    margin-left: auto;
+  }
+
+  nav {
+    background: #27282c;
+    padding: 20px;
+    width: auto;
+    margin-bottom: 16px;
+  }
+
+  .sponsored {
+    margin: 0 auto 16px;
+  }
+
+  article {
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+/*  .inner_box {
+     display: table;
+     margin: 0px;
+     padding: 0px;
+     width: 100%;
+  }
+*/
+
+  .red_list {
+    display: block;
+    width: 100%;
+  }
+
+  .blue_list {
+    display: block;
+    width: 100%;
+  }
+
+
+  .inner_box {
+     display: block;
+     margin: 0px;
+     padding: 0px;
+     width: 100%;
+  }
+}
