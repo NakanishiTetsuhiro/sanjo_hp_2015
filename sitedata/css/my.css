@@ -160,6 +160,7 @@ nav p {
 
 .sponsored h2 {
   margin-bottom: 10px;
+  color: #EE8322;
 }
 
 .sponsored img {
@@ -221,7 +222,7 @@ article .cover {
 .red_list ul{
   color: #E50050;
   margin: 0 auto;
-  float: left;
+/*  float: left;*/
 }
 
 .red_list img {
@@ -239,17 +240,24 @@ article .cover {
 .blue_list ul{
   color: #1e2088;
   margin: 0 auto;
-  float: left;
+  /*float: left;*/
 }
 
 .red_list {
-  display: table-cell;
-  width: 50%;
+  /*display: table-cell;*/
+  /*width: 50%;*/
+  margin-bottom: 16px;
 }
 
+/*
 .section_01 .blue_list {
   display: table-cell;
   width: 50%;
+}
+*/
+
+.section_01 li{
+  text-align: center;
 }
 
 /*-----------------
@@ -285,10 +293,10 @@ article .cover {
 }
 
 .section_03 .red_list {
-  display: table-cell;
-  width: 50%;
+  /*display: table-cell;*/
+  /*width: 50%;*/
   vertical-align: middle;
-  padding-right: 16px;
+  /*padding-right: 16px;*/
 }
 
 .section_03 .red_list li{
