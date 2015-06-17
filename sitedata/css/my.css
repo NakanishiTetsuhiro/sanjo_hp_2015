@@ -121,6 +121,11 @@ section {
   padding: 16px;
 }
 
+.center_img_cover {
+  margin: 40px 20px 20px;
+}
+
+
 /*----------------------
   .menubar
 ----------------------*/
