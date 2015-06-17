@@ -172,7 +172,8 @@ nav p {
   text-align: center;
 }
 
-.sponsored {
+.sponsored_pc {
+  display: block;
   position: relative;
   background: #FFF;
   padding: 20px;
@@ -180,12 +181,12 @@ nav p {
   margin-bottom: 16px;
 }
 
-.sponsored h2 {
+.sponsored_pc h2 {
   margin-bottom: 10px;
   color: #EE8322;
 }
 
-.sponsored img {
+.sponsored_pc img {
   width: 100%;
 }
 
@@ -391,15 +392,11 @@ article .cover {
   /*----------------------
     .menubar
   ----------------------*/
-  .menubar {
-    float: none;
+  body {
+    margin: 0;
   }
 
-  /*body {
-    content: url(../img/logo_okiraku.png);
-  }*/
-
-  #freewall {
+  article {
     margin-left: auto;
   }
 
@@ -410,14 +407,26 @@ article .cover {
     margin-bottom: 16px;
   }
 
-  .sponsored {
-    margin: 0 auto 16px;
+  nav img{
+    width: 96px;
+    margin-bottom: 9%;
   }
 
-  article {
-    margin-left: auto;
+  #freewall {
+    /*margin-left: auto;*/
+    margin: 16px;
+  }
+
+  .menubar {
+    float: none;
+  }
+
+  .sponsored_pc {
+    /*margin: 0 auto 16px;*/
+    display: none;
   }
 }
+
 
 @media screen and (max-width: 1080px) {
 
