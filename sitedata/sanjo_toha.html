@@ -15,6 +15,7 @@
   <!-- Freewall CSS -->
   <link rel="stylesheet" type="text/css" href="plugins/css/style.css">
   <!-- Freewall CSS end-->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/my.css">
   <!-- <link rel="stylesheet" media="only screen and (max-width: 568px)" href="css/max-568px.css"> -->
   <script src="js/jquery-1.11.3.min.js"></script>
@@ -39,19 +40,19 @@
           </li>
           <li>
             <p>教員・ゼミ紹介</p>
-            <a href="http://www.okiu.ac.jp/sanjyo/zemi.html">hoge</a>
+            <a href="zemi.html">hoge</a>
           </li>
           <li>
             <p>在学生のコメント</p>
-            <a href="http://www.okiu.ac.jp/sanjyo/comment.html">hoge</a>
+            <a href="comment.html">hoge</a>
           </li>
           <li>
             <p>卒業後の進路</p>
-            <a href="http://www.okiu.ac.jp/sanjyo/shinro.html">hoge</a>
+            <a href="shinro.html">hoge</a>
           </li>
           <li>
             <p>Q & A</p>
-            <a href="http://www.okiu.ac.jp/sanjyo/qanda.html">hoge</a>
+            <a href="q_and_a.html">hoge</a>
           </li>
           <li>
             <p>CONTACT</p>
@@ -180,6 +181,10 @@
         onResize: function() {
           wall.fitWidth();
         }
+      });
+
+      $("#menu-btn").click(function () {
+          $("#menu-list").slideToggle();
       });
     });
   </script>
