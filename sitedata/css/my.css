@@ -76,8 +76,9 @@ li {
   margin-bottom: 16px;
 }
 
-.news_list i {
+.more {
   position: absolute;
+  display: inline-block;
   right: 4%;
   top: 80%;
 }
