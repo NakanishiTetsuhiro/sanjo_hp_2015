@@ -103,32 +103,6 @@
     </section>
   </article>
 
-  <script>
-    $(function() {
-      // var temp = "<div class='brick' style='width:{width}px; height: {height}px; background-image: url(img/dammy/{index}.png)'></div>";
-      // var w = 200, h = 200, html = '', limitItem = 11;
-      // for (var i = 0; i < limitItem; ++i) {
-      //   html += temp.replace(/\{height\}/g, h).replace(/\{width\}/g, w).replace("{index}", i + 1);
-      // }
-      // $("#freewall").html(html);
-
-      var wall = new Freewall("#freewall");
-      wall.fitWidth();
-      wall.reset({
-        selector: '.brick',
-        animate: true,
-        cellW: 196,
-        cellH: 196,
-        delay: 30,
-        onResize: function() {
-          wall.fitWidth();
-        }
-      });
-
-      $("#menu-btn").click(function () {
-          $("#menu-list").slideToggle();
-      });
-    });
-  </script>
+  <script src="js/script.js"></script>
 </body>
 </html>
