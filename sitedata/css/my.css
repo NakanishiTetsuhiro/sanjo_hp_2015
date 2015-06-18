@@ -226,6 +226,7 @@ nav {
   width: 100%;
 }
 
+
 /*-----------------
   sanjo_toha.html
 -----------------*/
@@ -243,190 +244,218 @@ article .cover {
   margin-left: 8px;
 }*/
 
+  /*-----------------
+    .section_01
+  -----------------*/
+  #sanjo_toha {
+    /*width: 784px;*/
+    width: auto;
+  }
+
+  #sanjo_toha h1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFF;
+    background: #EC6C00;
+    -webkit-border-radius: 16px;
+            border-radius: 16px;
+    padding: 8px 8px 8px 16px;
+  }
+
+  #sanjo_toha p {
+    font-size: 16px;
+    border: 1px solid;
+    -webkit-border-radius: 16px;
+            border-radius: 16px;
+    padding: 8px 16px 8px;
+    margin-bottom: 16px;
+  }
+
+  .sankaku{
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    border: 48px solid transparent;
+    border-top: 80px solid #000;
+  }
+
+  .red_list ul{
+    color: #E50050;
+    margin: 0 auto;
+  /*  float: left;*/
+  }
+
+  .red_list img {
+    display: table-cell;
+    width: 12px;
+    /*float: left;*/
+  }
+
+  .blue_list img {
+    display: table-cell;
+    width: 13px;
+    /*float: left;*/
+  }
+
+  .blue_list ul{
+    color: #1e2088;
+    margin: 0 auto;
+    /*float: left;*/
+  }
+
+  .red_list {
+    /*display: table-cell;*/
+    /*width: 50%;*/
+    margin-bottom: 16px;
+  }
+
+  /*
+  .section_01 .blue_list {
+    display: table-cell;
+    width: 50%;
+  }
+  */
+
+  .section_01 li{
+    text-align: center;
+  }
+
+  /*-----------------
+    .section_02
+  -----------------*/
+
+  .section_02 .h2_red {
+    color: #e50050;
+  }
+
+  .section_02 .h2_blue {
+    color: #1e2088;
+  }
+
+  /*-----------------
+    .section_03
+  -----------------*/
+  .section_03 {
+    text-align: center;
+  }
+
+  .section_03 h1{
+    text-align: left;
+  }
+
+  .section_03 .inner_box {
+     display: table;
+     margin: 0px;
+     padding: 0px;
+     width: 100%;
+  /*  border-collapse: separate;
+    border-spacing: 16px 0;*/
+  }
+
+  .section_03 .red_list {
+    /*display: table-cell;*/
+    /*width: 50%;*/
+    vertical-align: middle;
+    /*padding-right: 16px;*/
+  }
+
+  .section_03 .red_list li{
+    color: #FFF;
+    background-color: #e50050;
+    margin-bottom: 10px;
+    -webkit-border-radius: 8px;
+            border-radius: 8px;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .section_03 .inner_box .table_img_box {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .section_03 .inner_box .table_img_box img{
+    width: 100%;
+    max-width: 50%;
+  }
+
+  .img_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section_03 h3{
+    text-align: center;
+    color: #e50050;
+  }
+
+  /*--------------
+    .section_04
+  --------------*/
+  .section_04 .blue_list li{
+    color: #FFF;
+    background-color: #1e2088;
+    margin-bottom: 16px;
+    -webkit-border-radius: 8px;
+            border-radius: 8px;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .new {
+    color: #e50050;
+  }
+
+  .section_04 h2{
+    text-align: center;
+    margin-bottom: 32px;
+  }
+
+  .section_04 h3{
+    text-align: center;
+    color: #e50050;
+  }
+
+  .section_04 .ouen ul{
+    text-align: center;
+  }
+
+  #menu-btn {
+    display: none;
+  }
+
 /*-----------------
-  .section_01
+  q_and_a.html
 -----------------*/
-#sanjo_toha {
-  /*width: 784px;*/
-  width: auto;
-}
+  #q_and_a {
+    /*width: 784px;*/
+    width: auto;
+  }
 
-#sanjo_toha h1 {
-  font-size: 16px;
-  font-weight: bold;
-  color: #FFF;
-  background: #EC6C00;
-  -webkit-border-radius: 16px;
-          border-radius: 16px;
-  padding: 8px 8px 8px 16px;
-}
+  #q_and_a h1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFF;
+    background: #EC6C00;
+    -webkit-border-radius: 16px;
+            border-radius: 16px;
+    padding: 8px 8px 8px 16px;
+  }
 
-#sanjo_toha p {
-  font-size: 16px;
-  border: 1px solid;
-  -webkit-border-radius: 16px;
-          border-radius: 16px;
-  padding: 8px 16px 8px;
-  margin-bottom: 16px;
-}
+  #q_and_a p {
+    font-size: 16px;
+    border: 1px solid;
+    -webkit-border-radius: 16px;
+            border-radius: 16px;
+    padding: 8px 16px 8px;
+    margin-bottom: 16px;
+  }
 
-.sankaku{
-  width: 0;
-  height: 0;
-  margin: 0 auto;
-  border: 48px solid transparent;
-  border-top: 80px solid #000;
-}
 
-.red_list ul{
-  color: #E50050;
-  margin: 0 auto;
-/*  float: left;*/
-}
 
-.red_list img {
-  display: table-cell;
-  width: 12px;
-  /*float: left;*/
-}
 
-.blue_list img {
-  display: table-cell;
-  width: 13px;
-  /*float: left;*/
-}
 
-.blue_list ul{
-  color: #1e2088;
-  margin: 0 auto;
-  /*float: left;*/
-}
-
-.red_list {
-  /*display: table-cell;*/
-  /*width: 50%;*/
-  margin-bottom: 16px;
-}
-
-/*
-.section_01 .blue_list {
-  display: table-cell;
-  width: 50%;
-}
-*/
-
-.section_01 li{
-  text-align: center;
-}
-
-/*-----------------
-  .section_02
------------------*/
-
-.section_02 .h2_red {
-  color: #e50050;
-}
-
-.section_02 .h2_blue {
-  color: #1e2088;
-}
-
-/*-----------------
-  .section_03
------------------*/
-.section_03 {
-  text-align: center;
-}
-
-.section_03 h1{
-  text-align: left;
-}
-
-.section_03 .inner_box {
-   display: table;
-   margin: 0px;
-   padding: 0px;
-   width: 100%;
-/*  border-collapse: separate;
-  border-spacing: 16px 0;*/
-}
-
-.section_03 .red_list {
-  /*display: table-cell;*/
-  /*width: 50%;*/
-  vertical-align: middle;
-  /*padding-right: 16px;*/
-}
-
-.section_03 .red_list li{
-  color: #FFF;
-  background-color: #e50050;
-  margin-bottom: 10px;
-  -webkit-border-radius: 8px;
-          border-radius: 8px;
-  padding: 8px;
-  text-align: center;
-}
-
-.section_03 .inner_box .table_img_box {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.section_03 .inner_box .table_img_box img{
-  width: 100%;
-  max-width: 50%;
-}
-
-.img_center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.section_03 h3{
-  text-align: center;
-  color: #e50050;
-}
-
-/*--------------
-  .section_04
---------------*/
-.section_04 .blue_list li{
-  color: #FFF;
-  background-color: #1e2088;
-  margin-bottom: 16px;
-  -webkit-border-radius: 8px;
-          border-radius: 8px;
-  padding: 8px;
-  text-align: center;
-}
-
-.new {
-  color: #e50050;
-}
-
-.section_04 h2{
-  text-align: center;
-  margin-bottom: 32px;
-}
-
-.section_04 h3{
-  text-align: center;
-  color: #e50050;
-}
-
-.section_04 .ouen ul{
-  text-align: center;
-}
-
-#menu-btn {
-  display: none;
-}
-
-/*-----------------
-  @media_CSS
------------------*/
 @media screen and (max-width: 568px) {
   /*----------------------
     .menubar
