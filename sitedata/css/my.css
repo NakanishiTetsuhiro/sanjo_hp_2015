@@ -50,9 +50,10 @@ li {
 }
 */
 
-/*.news_box {
-  text-align: center;
-}*/
+.news_box {
+  /*text-align: center;*/
+  overflow: scroll;
+}
 
 .news_box h3 {
   color: #262626!important;
