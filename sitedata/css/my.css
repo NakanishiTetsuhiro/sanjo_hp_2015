@@ -506,6 +506,9 @@ article .cover {
     margin-bottom: 16px;
   }
 
+  #comment section {
+    position: relative;
+  }
 
 
 
