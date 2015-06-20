@@ -26,6 +26,17 @@ li {
   list-style: none;
 }
 
+article {
+  background: #FFF;
+  margin-left: 252px;
+  max-width: 960px;
+}
+
+article .cover {
+  overflow: hidden;
+  margin: 20px;
+}
+
 #freewall {
   max-width: 960px;
   margin-left: 252px;
@@ -231,20 +242,6 @@ nav {
 /*-----------------
   sanjo_toha.html
 -----------------*/
-article {
-  background: #FFF;
-  margin-left: 252px;
-}
-
-article .cover {
-  overflow: hidden;
-  margin: 20px;
-}
-
-/*article h2 {
-  margin-left: 8px;
-}*/
-
   /*-----------------
     .section_01
   -----------------*/
