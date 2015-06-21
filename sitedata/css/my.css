@@ -476,17 +476,24 @@ nav {
   padding: 8px 8px 8px 16px;
 }
 
+#comment section .cover {
+  border: 1px solid;
+  -webkit-border-radius: 16px;
+          border-radius: 16px;
+  padding: 8px 16px 8px;
+}
+
 #comment p {
   font-size: 16px;
-/*  border: 1px solid;
-  -webkit-border-radius: 16px;
-          border-radius: 16px;*/
-  /*padding: 8px 16px 8px;*/
   display: inline-block;
+  width: 48%;
+  vertical-align: top;
 }
 
 #comment img {
   display: inline-block;
+  width: 48%;
+  margin-right: 2%;
 }
 
 
@@ -531,7 +538,7 @@ nav {
 }
 
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 750px) {
   /*----------------------
     .menubar
   ----------------------*/
@@ -616,7 +623,6 @@ nav {
 
 
 @media screen and (max-width: 1080px) {
-
   .red_list {
     display: block;
     width: 100%;
@@ -633,5 +639,18 @@ nav {
      margin: 0px;
      padding: 0px;
      width: 100%;
+  }
+
+  #comment img {
+    width: 100%;
+    margin-right: auto;
+    margin-bottom: 8px;
+  }
+
+  #comment p {
+    font-size: 16px;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
   }
 }
