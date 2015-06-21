@@ -511,9 +511,23 @@ nav {
           border-radius: 16px;
   padding: 8px 16px 8px;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
+.img_table {
+  display: inline-block;
+  text-align: center;
+}
 
+.img_table li {
+  /*display: table-cell;*/
+  display: inline-block;
+  width: 32%;
+}
+
+.img_table img {
+  width: 100%;
+}
 
 
 @media screen and (max-width: 568px) {
@@ -593,7 +607,12 @@ nav {
     padding-bottom: 20px;
 
   }
+
+  .img_table li {
+    width: 49%;
+  }
 }
+
 
 @media screen and (max-width: 1080px) {
 
