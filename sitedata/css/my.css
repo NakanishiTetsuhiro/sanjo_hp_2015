@@ -34,6 +34,10 @@ article .cover {
   margin: 20px;
 }
 
+section {
+  padding: 16px;
+}
+
 #freewall {
   max-width: 960px;
   margin-left: 252px;
@@ -160,10 +164,6 @@ article .cover {
 
 .cf:after {
   clear: both;
-}
-
-section {
-  padding: 16px;
 }
 
 .center_img_cover {
@@ -478,16 +478,17 @@ nav {
 
 #comment p {
   font-size: 16px;
-  border: 1px solid;
+/*  border: 1px solid;
   -webkit-border-radius: 16px;
-          border-radius: 16px;
-  padding: 8px 16px 8px;
-  margin-bottom: 16px;
+          border-radius: 16px;*/
+  /*padding: 8px 16px 8px;*/
+  display: inline-block;
 }
 
-#comment section {
-  position: relative;
+#comment img {
+  display: inline-block;
 }
+
 
 #news {
   /*width: 784px;*/
