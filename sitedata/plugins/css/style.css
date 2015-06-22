@@ -39,7 +39,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	background: rgba(231, 231, 231, 0.43);
-	line-height: 1.125em;
+/*	line-height: 1.125em;*/
 	/*color: white;*/
 	max-width: 1920px;
 	margin: 0 auto;
