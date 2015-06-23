@@ -40,8 +40,8 @@ section {
 }
 
 #freewall {
-  max-width: 960px;
   margin-left: 252px;
+  max-width: 960px;
 }
 
 #freewall h2 {
@@ -579,6 +579,10 @@ figure:hover figcaption {
   color: blue;
 }
 
+.logo_box {
+  display: none;
+}
+
 
 
 @media screen and (max-width: 750px) {
@@ -661,6 +665,17 @@ figure:hover figcaption {
 
   .img_table li {
     width: 49%;
+  }
+
+  .logo_box {
+    display: inline;
+    position: absolute;
+    left: 170px;
+    top: -8%;
+  }
+
+  .logo_box img {
+    width: 80px;
   }
 }
 
