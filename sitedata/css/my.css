@@ -572,6 +572,63 @@ figure:hover figcaption {
   opacity: 1;
 }*/
 
+.zemi_box {
+  position: relative;
+}
+
+.zemi_box h1{
+  position: absolute;
+  top: 64%;
+  right: 4%;
+  font-size: 1.2em;
+}
+
+.asato {
+  background-image: url(../old_page/assets/img/f_asato.jpg);
+  background-repeat: no-repeat;
+  color: #FFF;
+}
+
+.odo {
+  background-image: url(../old_page/assets/img/f_odo.jpg);
+  background-repeat: no-repeat;
+}
+
+.yu {
+  background-image: url(../old_page/assets/img/f_yu.JPG);
+  background-repeat: no-repeat;
+}
+
+.maemura {
+  background-image: url(../old_page/assets/img/f_maemura.jpg);
+  background-repeat: no-repeat;
+  color: #FFF;
+}
+
+.ooi {
+  background-image: url(../old_page/assets/img/f_ooi.jpg);
+  background-repeat: no-repeat;
+  color: #FFF;
+}
+
+.sou {
+  background-image: url(../old_page/assets/img/f_sou.png);
+  background-repeat: no-repeat;
+}
+
+.taira {
+  background-image: url(../old_page/assets/img/f_taira.jpg);
+  background-repeat: no-repeat;
+  color: #FFF;
+}
+
+.matayoshi {
+  background-image: url(../old_page/assets/img/f_matayoshi.jpg);
+  background-repeat: no-repeat;
+}
+
+
+
 .sotsuron a {
   position: static;
   width: auto;
