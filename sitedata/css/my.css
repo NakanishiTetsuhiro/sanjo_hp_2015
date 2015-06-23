@@ -36,7 +36,7 @@ article .cover {
 }
 
 section {
-  padding: 16px;
+  padding: 16px 20px 20px;
 }
 
 #freewall {
@@ -240,6 +240,7 @@ nav {
 #sanjo_toha {
   /*width: 784px;*/
   width: auto;
+  /*padding: 0 20px 0;*/
 }
 
 #sanjo_toha h1 {
@@ -627,7 +628,7 @@ figure:hover figcaption {
     background: #27282c;
     padding: 20px 20px 0 20px;
     width: auto;
-    margin-bottom: 16px;
+    margin-bottom: 0px;
   }
 
   #freewall {
