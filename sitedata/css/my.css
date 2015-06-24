@@ -691,8 +691,35 @@ figure:hover figcaption {
   margin-bottom: 16px;
 }
 
+.top_btn_01 {
+  background-image: url(../img/top_img_05.png);
+  background-repeat: no-repeat;
+  color: #FFF;
+}
 
+.top_btn_02 {
+  background-image: url(../img/top_img_02.png);
+  background-repeat: no-repeat;
+  color: #FFF;
+}
 
+.top_btn_03 {
+  background-image: url(../img/top_img_03.png);
+  background-repeat: no-repeat;
+  color: #FFF;
+}
+
+.top_btn_04 {
+  background-image: url(../img/top_img_06.png);
+  background-repeat: no-repeat;
+  color: #FFF;
+}
+
+.top_btn_05 {
+  background-image: url(../img/top_img_04.png);
+  background-repeat: no-repeat;
+  color: #FFF;
+}
 
 
 
