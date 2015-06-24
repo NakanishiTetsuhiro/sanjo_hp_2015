@@ -483,7 +483,7 @@ nav {
   padding: 8px 8px 8px 16px;
 }
 
-#comment section .cover {
+#comment section .cover ,#news .cover {
   border: 1px solid;
   -webkit-border-radius: 16px;
           border-radius: 16px;
@@ -528,11 +528,11 @@ nav {
 
 #news p {
   font-size: 16px;
-  border: 1px solid;
+/*  border: 1px solid;
   -webkit-border-radius: 16px;
           border-radius: 16px;
-  padding: 8px 16px 8px;
-  margin-bottom: 16px;
+  padding: 8px 16px 8px;*/
+  /*margin-bottom: 16px;*/
   display: inline-block;
 }
 
@@ -589,9 +589,9 @@ figure:hover figcaption {
 
 .zemi_box h1{
   position: absolute;
-  top: 64%;
+  top: 63%;
   right: 4%;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .asato {
