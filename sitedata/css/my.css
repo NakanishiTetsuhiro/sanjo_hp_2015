@@ -536,6 +536,18 @@ nav {
   display: inline-block;
 }
 
+#news img {
+  max-width: 100%;
+}
+
+#news a  {
+  position: static;
+  width: auto;
+  height: auto;
+  text-indent: 0px;
+  color: blue;
+}
+
 .img_table {
   display: inline-block;
   text-align: center;
@@ -678,6 +690,10 @@ figure:hover figcaption {
   padding: 8px 16px 8px;
   margin-bottom: 16px;
 }
+
+
+
+
 
 
 @media screen and (max-width: 750px) {
