@@ -644,6 +644,14 @@ figure:hover figcaption {
   color: #FFF;
 }
 
+.tomikawa h1{
+  font-size: 14px;
+}
+
+.matayoshi h1{
+  font-size: 14px;
+}
+
 
 .sotsuron a {
   position: static;
