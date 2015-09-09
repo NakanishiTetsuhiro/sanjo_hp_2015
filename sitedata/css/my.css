@@ -717,11 +717,28 @@ figure:hover figcaption {
 }
 
 .top_btn_05 {
-  background-image: url(../img/top_img_04.png);
   background-repeat: no-repeat;
   color: #FFF;
+  background-image: url(../img/top_img_04.png);
 }
 
+.top_img_01 {
+  background-repeat: no-repeat;
+  color: #FFF;
+  background-image: url(../img/top_img_08.jpg);
+}
+
+.top_img_02 {
+  background-repeat: no-repeat;
+  color: #FFF;
+  background-image: url(../img/top_img_09.jpg);
+}
+
+.top_img_03 {
+  background-repeat: no-repeat;
+  color: #FFF;
+  background-image: url(../img/top_img_07.jpg);
+}
 
 
 @media screen and (max-width: 750px) {
