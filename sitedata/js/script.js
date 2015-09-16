@@ -1,4 +1,6 @@
 $(function() {
+
+  //-----Freewall settings-------------
   var wall = new Freewall("#freewall");
   // wall.fitWidth();
   wall.reset({
@@ -15,8 +17,13 @@ $(function() {
   $(document).ready(function(){
     wall.fitWidth();
   });
+  //-----------------------------------
+
+
+  $("#menu-list").load("./modules/menu-list.html");
 
   $("#menu-btn").click(function () {
       $("#menu-list").slideToggle();
   });
+
 });
