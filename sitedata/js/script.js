@@ -19,9 +19,6 @@ $(function() {
   });
   //-----------------------------------
 
-
-  $("#menu-list").load("./modules/menu-list.html");
-
   $("#menu-btn").click(function () {
       $("#menu-list").slideToggle();
   });

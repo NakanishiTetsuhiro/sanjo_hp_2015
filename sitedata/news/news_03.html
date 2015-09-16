@@ -35,32 +35,8 @@
           <i id="menu-btn" class="fa fa-bars"></i>
         </div>
 
-        <ul id="menu-list">
-          <li>
-            <p>産業情報学科とは</p>
-            <a href="../sanjo_toha.html">link</a>
-          </li>
-          <li>
-            <p>教員・ゼミ紹介</p>
-            <a href="../zemi.html">link</a>
-          </li>
-          <li>
-            <p>生徒のコメント</p>
-            <a href="../comment.html">link</a>
-          </li>
-          <li>
-            <p>卒業後の進路</p>
-            <a href="../shinro.html">link</a>
-          </li>
-          <li>
-            <p>Q&nbsp;&amp;&nbsp;A</p>
-            <a href="../q_and_a.html">link</a>
-          </li>
-          <li>
-            <p>CONTACT</p>
-            <a href="../http://www.okiu.ac.jp/info/inquiry/" target="_blank">link</a>
-          </li>
-        </ul>
+        <ul id="menu-list"></ul>
+
       </div>
     </nav>
 <!--
@@ -83,6 +59,12 @@
       </section>
     </article>
 
+
+  <script type="text/javascript">
+    $(function() {
+      $("#menu-list").load("../modules/menu-list02.html");
+    });
+  </script>
   <script src="../js/script.js"></script>
 </body>
 </html>
