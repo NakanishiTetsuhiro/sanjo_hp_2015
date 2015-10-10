@@ -617,6 +617,12 @@ figure:hover figcaption {
   background-repeat: no-repeat;
 }
 
+.uehara {
+  background-image: url(../img/f_uehara.jpg);
+  background-repeat: no-repeat;
+  color: #FFF;
+}
+
 .odo {
   background-image: url(../old_page/assets/img/f_odo.jpg);
   background-repeat: no-repeat;
