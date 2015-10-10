@@ -554,9 +554,13 @@ nav {
 }
 
 .img_table li {
-  /*display: table-cell;*/
   display: inline-block;
   width: 32%;
+}
+
+.img_table_02 li {
+  display: inline-block;
+  width: 49%;
 }
 
 .img_table img {
@@ -832,6 +836,10 @@ figure:hover figcaption {
 
   .img_table li {
     width: 49%;
+  }
+
+  .img_table_02 li {
+    width: 100%;
   }
 
   .logo_box {
