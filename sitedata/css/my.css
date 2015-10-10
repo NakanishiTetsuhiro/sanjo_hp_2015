@@ -612,6 +612,11 @@ figure:hover figcaption {
   color: #FFF;
 }
 
+.ikemiyagi {
+  background-image: url(../img/f_ikemiyagi.JPG);
+  background-repeat: no-repeat;
+}
+
 .odo {
   background-image: url(../old_page/assets/img/f_odo.jpg);
   background-repeat: no-repeat;
