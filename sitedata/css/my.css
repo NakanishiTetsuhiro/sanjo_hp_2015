@@ -632,6 +632,12 @@ figure:hover figcaption {
   background-repeat: no-repeat;
 }
 
+.taguchi {
+  background-image: url(../img/f_taguchi.jpg);
+  background-repeat: no-repeat;
+  color: #FFF;
+}
+
 .yu {
   background-image: url(../old_page/assets/img/f_yu.JPG);
   background-repeat: no-repeat;
