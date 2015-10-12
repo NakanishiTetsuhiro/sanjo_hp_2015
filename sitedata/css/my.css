@@ -49,24 +49,6 @@ section {
   color: #EE8322;
 }
 
-/*
-.news {
-  text-align: center;
-}
-
-.news h2 {
-  color: #262626!important;
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 32px;
-}
-
-.news time {
-  color: #EE8322;
-  font-size: 18px;
-}
-*/
-
 .mb {
   margin-bottom: 48px;
 }
@@ -303,13 +285,6 @@ nav {
   /*width: 50%;*/
   margin-bottom: 16px;
 }
-
-/*
-.section_01 .blue_list {
-  display: table-cell;
-  width: 50%;
-}
-*/
 
 .section_01 li{
   text-align: center;
