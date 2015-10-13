@@ -257,8 +257,8 @@ nav {
 }
 
 .red_list ul{
-  color: #E50050;
   margin: 0 auto;
+  color: #E50050;
 /*  float: left;*/
 }
 
@@ -734,6 +734,41 @@ figure:hover figcaption {
   background-repeat: no-repeat;
   color: #FFF;
   background-image: url(../img/top_img_07.jpg);
+}
+
+#global {
+  width: auto;
+}
+
+#global h1 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFF;
+  background: #EC6C00;
+  -webkit-border-radius: 16px;
+          border-radius: 16px;
+  padding: 8px 8px 8px 16px;
+}
+
+#global p {
+  font-size: 16px;
+  border: 1px solid;
+  -webkit-border-radius: 16px;
+          border-radius: 16px;
+  padding: 8px 16px 8px;
+  margin-bottom: 16px;
+  text-align: center;;
+}
+
+#global .section_01 li{
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+#global .section_02 li {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 16px;
 }
 
 
