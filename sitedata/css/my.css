@@ -772,6 +772,39 @@ figure:hover figcaption {
 }
 
 
+@media screen and (max-width: 1080px) {
+  .red_list {
+    display: block;
+    width: 100%;
+  }
+
+  .blue_list {
+    display: block;
+    width: 100%;
+  }
+
+
+  .inner_box {
+     display: block;
+     margin: 0px;
+     padding: 0px;
+     width: 100%;
+  }
+
+  #comment img {
+    margin-right: auto;
+    margin-bottom: 8px;
+  }
+
+  #comment p {
+    font-size: 16px;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+  }
+}
+
+
 @media screen and (max-width: 750px) {
   /*----------------------
     .menubar
@@ -867,39 +900,5 @@ figure:hover figcaption {
 
   .logo_box img {
     width: 80px;
-  }
-}
-
-
-@media screen and (max-width: 1080px) {
-  .red_list {
-    display: block;
-    width: 100%;
-  }
-
-  .blue_list {
-    display: block;
-    width: 100%;
-  }
-
-
-  .inner_box {
-     display: block;
-     margin: 0px;
-     padding: 0px;
-     width: 100%;
-  }
-
-  #comment img {
-    width: 100%;
-    margin-right: auto;
-    margin-bottom: 8px;
-  }
-
-  #comment p {
-    font-size: 16px;
-    display: inline-block;
-    width: 100%;
-    vertical-align: top;
   }
 }
