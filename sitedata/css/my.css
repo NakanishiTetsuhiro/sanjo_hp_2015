@@ -806,9 +806,6 @@ figure:hover figcaption {
 
 
 @media screen and (max-width: 750px) {
-  /*----------------------
-    .menubar
-  ----------------------*/
   body {
     margin: 0;
   }
@@ -900,5 +897,9 @@ figure:hover figcaption {
 
   .logo_box img {
     width: 80px;
+  }
+
+  #comment img {
+    width: 100%;
   }
 }
