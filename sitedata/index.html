@@ -37,6 +37,13 @@
 
         <!-- ここにmenu-listのhtmlデータがJSで呼び出される -->
         <ul id="menu-list"></ul>
+
+        <script type="text/javascript">
+          $(function() {
+            $("#menu-list").load("modules/menu-list.html");
+          });
+        </script>
+
       </div>
     </nav>
   </div>
@@ -178,11 +185,6 @@
     <div class="brick m_size_02 top_img_03"></div>
   </div>
 
-  <script type="text/javascript">
-    $(function() {
-      $("#menu-list").load("modules/menu-list.html");
-    });
-  </script>
   <script src="js/script.js"></script>
 </body>
 </html>
