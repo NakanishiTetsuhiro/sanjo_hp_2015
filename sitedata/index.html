@@ -18,6 +18,11 @@
   <link rel="stylesheet" type="text/css" href="css/my.css">
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="plugins/freewall.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $("#menu-list").load("modules/menu-list.html");
+    });
+  </script>
 </head>
 <body>
   <div class="menubar">
@@ -37,12 +42,6 @@
 
         <!-- ここにmenu-listのhtmlデータがJSで呼び出される -->
         <ul id="menu-list"></ul>
-
-        <script type="text/javascript">
-          $(function() {
-            $("#menu-list").load("modules/menu-list.html");
-          });
-        </script>
 
       </div>
     </nav>
