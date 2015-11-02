@@ -288,7 +288,7 @@ nav {
 
 
 
-.section_04 .blue_list li{
+#section_04 .blue_list li{
   color: #FFF;
   background-color: #1e2088;
   margin-bottom: 16px;
@@ -300,18 +300,9 @@ nav {
 
 .new { color: #e50050; }
 
-.section_04 h2 {
-  text-align: center;
-  margin-bottom: 32px;
-}
-
-.section_04 h3 {
-  text-align: center;
-  color: #e50050;
-}
+#section_04 h2 { margin-bottom: 32px; }
 
 .centering    { text-align: center; }
-.centering_pc { text-align: center; }
 
 #menu-btn { display: none; }
 
@@ -629,23 +620,16 @@ nav {
 }
 
 
+@media screen and (min-width: 1081px) {
+
+  .centering_pc { text-align: center; }
+
+}
+
 
 @media screen and (max-width: 1080px) {
 
-  .centering_pc { text-align: left; }
-
-  .blue_list {
-    display: block;
-    width: 100%;
-  }
-
-
-  .inner_box {
-     display: block;
-     margin: 0px;
-     padding: 0px;
-     width: 100%;
-  }
+  #global h2 { font-size: 20px; }
 
   #comment img {
     margin-right: auto;
@@ -659,11 +643,32 @@ nav {
     vertical-align: top;
   }
 
+  #section_04 h2 { font-size: 20px; }
+
+  .blue_list {
+    display: block;
+    width: 100%;
+  }
+
+  .inner_box {
+     display: block;
+     margin: 0px;
+     padding: 0px;
+     width: 100%;
+  }
+
   .circle_point_list_tb {
     padding-left: 32px;
     padding-right: 32px;
   }
   .circle_point_list_tb li { list-style: circle!important; }
+
+
+  @media screen and (min-width: 751px) {
+
+    .centering_tb { text-align: center; }
+
+  }
 
 
   @media screen and (max-width: 750px) {
@@ -680,6 +685,42 @@ nav {
     }
 
     #freewall { margin: 16px; }
+
+    #menu-btn {
+      color: #FEF4F3;
+      /*text-align: right;*/
+      /*vertical-align: top;*/
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+
+    #menu-btn:before {
+      /*text-align: right;*/
+      vertical-align: top;
+      font-size: 32px;
+    }
+
+    #menu-list {
+      display: none;
+      padding-bottom: 20px;
+    }
+
+    #menu-list li { padding: 16px 0; }
+
+    #comment img { width: 100%; }
+
+    #global h2 { font-size: 16px; }
+
+    #sanjo_toha h2 {
+      font-size: 24px;
+      line-height: 1.4em;
+    }
+
+    #section_04 h2 { font-size: 20px; }
+
+    #sanjo_toha li { font-size: 14px; }
 
     .menubar { float: none; }
 
@@ -707,29 +748,6 @@ nav {
       height: 40px;
     }
 
-    #menu-btn {
-      color: #FEF4F3;
-      /*text-align: right;*/
-      /*vertical-align: top;*/
-      display: inline-block;
-      position: absolute;
-      top: 0;
-      right: 0;
-    }
-
-    #menu-btn:before {
-      /*text-align: right;*/
-      vertical-align: top;
-      font-size: 32px;
-    }
-
-    #menu-list li { padding: 16px 0; }
-
-    #menu-list {
-      display: none;
-      padding-bottom: 20px;
-    }
-
     .img_table li { width: 49%; }
 
     .img_table_02 li { width: 100%; }
@@ -742,16 +760,6 @@ nav {
     }
 
     .logo_box img { width: 80px; }
-
-    #comment img { width: 100%; }
-
-
-    #sanjo_toha h2 {
-      font-size: 24px;
-      line-height: 1.4em;
-    }
-
-    #sanjo_toha li { font-size: 14px; }
 
     .circle_point_list_sp {
       padding-left: 32px;
