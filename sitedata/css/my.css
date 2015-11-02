@@ -49,9 +49,15 @@ section {
   color: #EE8322;
 }
 
-.mb {
-  margin-bottom: 48px;
+.mb { margin-bottom: 48px; }
+
+.circle_point_list {
+  padding-left: 32px;
+  padding-right: 32px;
 }
+
+.circle_point_list li { list-style: circle!important; }
+
 
 .news_box {
   overflow: scroll;
@@ -226,49 +232,12 @@ nav {
   border-top: 80px solid #000;
 }
 
-.red_list ul{
-  margin: 0 auto;
-  color: #E50050;
-/*  float: left;*/
-}
+.red_color    { color: #E50050; }
+.red_color li { color: #E50050; }
 
-.red_list img {
-  display: table-cell;
-  width: 12px;
-  /*float: left;*/
-}
+.blue_color    { color: #1e2088; }
+.blue_color li { color: #1e2088; }
 
-.blue_list img {
-  display: table-cell;
-  width: 13px;
-  /*float: left;*/
-}
-
-.blue_list ul{
-  color: #1e2088;
-  margin: 0 auto;
-  /*float: left;*/
-}
-
-.red_list {
-  /*display: table-cell;*/
-  /*width: 50%;*/
-  margin-bottom: 16px;
-}
-
-.section_01 li{ text-align: center; }
-
-
-
-.section_02 .h2_red { color: #e50050; }
-
-.section_02 .h2_blue { color: #1e2088; }
-
-
-
-.section_03 { text-align: center; }
-
-.section_03 h1{ text-align: left; }
 
 .section_03 .inner_box {
    display: table;
@@ -331,17 +300,18 @@ nav {
 
 .new { color: #e50050; }
 
-.section_04 h2{
+.section_04 h2 {
   text-align: center;
   margin-bottom: 32px;
 }
 
-.section_04 h3{
+.section_04 h3 {
   text-align: center;
   color: #e50050;
 }
 
-.centering{ text-align: center; }
+.centering    { text-align: center; }
+.centering_pc { text-align: center; }
 
 #menu-btn { display: none; }
 
@@ -632,7 +602,7 @@ nav {
   background-image: url(../img/top_img_07.jpg);
 }
 
-#global { width: auto; }
+
 
 #global h1 {
   font-size: 16px;
@@ -644,6 +614,10 @@ nav {
   padding: 8px 8px 8px 16px;
 }
 
+#global h2 {
+  font-size: 24px;
+}
+
 #global p {
   font-size: 16px;
   border: 1px solid;
@@ -651,31 +625,14 @@ nav {
           border-radius: 16px;
   padding: 8px 16px 8px;
   margin-bottom: 16px;
-  text-align: center;;
-}
-
-#global .section_01 li{
-  font-size: 24px;
-  margin-bottom: 16px;
-}
-
-#global .section_02 li {
   text-align: center;
-  font-size: 24px;
-  margin-bottom: 16px;
 }
-
-.circle_point_list { padding-left: 32px; }
-
-.circle_point_list li { list-style: circle!important; }
 
 
 
 @media screen and (max-width: 1080px) {
-  .red_list {
-    display: block;
-    width: 100%;
-  }
+
+  .centering_pc { text-align: left; }
 
   .blue_list {
     display: block;
@@ -701,94 +658,102 @@ nav {
     width: 100%;
     vertical-align: top;
   }
+
+
+
+  @media screen and (max-width: 750px) {
+
+    body { margin: 0; }
+
+    article { margin-left: auto; }
+
+    nav {
+      background: #27282c;
+      padding: 20px 20px 0 20px;
+      width: auto;
+      margin-bottom: 0px;
+    }
+
+    #freewall { margin: 16px; }
+
+    .menubar { float: none; }
+
+    .sponsored_pc {
+      /*margin: 0 auto 16px;*/
+      display: none;
+    }
+
+    .logo{
+      display: inline;
+      /*vertical-align: top;*/
+      /*text-align: left;*/
+      position: absolute;
+      left: 0;
+      width: auto;
+    }
+
+    .logo img{
+    width: 160px;
+    margin-bottom: 8px;
+    }
+
+    .cover_nav {
+      position: relative;
+      height: 40px;
+    }
+
+    #menu-btn {
+      color: #FEF4F3;
+      /*text-align: right;*/
+      /*vertical-align: top;*/
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+
+    #menu-btn:before {
+      /*text-align: right;*/
+      vertical-align: top;
+      font-size: 32px;
+    }
+
+    #menu-list li { padding: 16px 0; }
+
+    #menu-list {
+      display: none;
+      padding-bottom: 20px;
+    }
+
+    .img_table li { width: 49%; }
+
+    .img_table_02 li { width: 100%; }
+
+    .logo_box {
+      display: inline;
+      position: absolute;
+      left: 170px;
+      top: -8%;
+    }
+
+    .logo_box img { width: 80px; }
+
+    #comment img { width: 100%; }
+
+
+    #sanjo_toha h2 {
+      font-size: 24px;
+      line-height: 1.4em;
+    }
+
+    #sanjo_toha li { font-size: 14px; }
+
+    .circle_point_list_sp {
+      padding-left: 32px;
+      padding-right: 32px;
+    }
+    .circle_point_list_sp li { list-style: circle!important; }
+
+  }
 }
 
-
-@media screen and (max-width: 750px) {
-  body { margin: 0; }
-
-  article { margin-left: auto; }
-
-  nav {
-    background: #27282c;
-    padding: 20px 20px 0 20px;
-    width: auto;
-    margin-bottom: 0px;
-  }
-
-  #freewall { margin: 16px; }
-
-  .menubar { float: none; }
-
-  .sponsored_pc {
-    /*margin: 0 auto 16px;*/
-    display: none;
-  }
-
-  .logo{
-    display: inline;
-    /*vertical-align: top;*/
-    /*text-align: left;*/
-    position: absolute;
-    left: 0;
-    width: auto;
-  }
-
-  .logo img{
-  width: 160px;
-  margin-bottom: 8px;
-  }
-
-  .cover_nav {
-    position: relative;
-    height: 40px;
-  }
-
-  #menu-btn {
-    color: #FEF4F3;
-    /*text-align: right;*/
-    /*vertical-align: top;*/
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-
-  #menu-btn:before {
-    /*text-align: right;*/
-    vertical-align: top;
-    font-size: 32px;
-  }
-
-  #menu-list li { padding: 16px 0; }
-
-  #menu-list {
-    display: none;
-    padding-bottom: 20px;
-  }
-
-  .img_table li { width: 49%; }
-
-  .img_table_02 li { width: 100%; }
-
-  .logo_box {
-    display: inline;
-    position: absolute;
-    left: 170px;
-    top: -8%;
-  }
-
-  .logo_box img { width: 80px; }
-
-  #comment img { width: 100%; }
-
-
-  #sanjo_toha h2 { font-size: 24px; }
-
-  #sanjo_toha li { font-size: 12px; }
-
-  .circle_point_list {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-}
