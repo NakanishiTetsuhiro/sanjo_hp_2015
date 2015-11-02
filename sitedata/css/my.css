@@ -659,6 +659,11 @@ nav {
     vertical-align: top;
   }
 
+  .circle_point_list_tb {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .circle_point_list_tb li { list-style: circle!important; }
 
 
   @media screen and (max-width: 750px) {
