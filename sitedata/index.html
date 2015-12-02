@@ -25,6 +25,17 @@
   </script>
 </head>
 <body>
+<!-- facebook like button script -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<!-- end -->
+
   <div class="menubar">
     <nav>
       <div class="cover">
@@ -157,6 +168,21 @@
       <h1>卒業後の進路</h1>
       <i class="fa fa-arrow-circle-right more">more</i>
       <a href="shinro.html">link</a>
+    </div>
+
+    <div class="brick s_size_01">
+      <div class="cover">
+        <h2>SHARE</h2>
+        <a href="https://twitter.com/share" class="twitter-share-button"{count} data-url="http://www.okiu.ac.jp/sanjyo/" data-size="large">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      </div>
+    </div>
+
+    <div class="brick s_size_01">
+      <div class="cover">
+        <h2>SHARE</h2>
+        <div class="fb-like"></div>
+        <div class="fb-share-button" data-href="http://www.okiu.ac.jp/sanjyo/" data-layout="button"></div>
+      </div>
     </div>
 
     <div class="brick s_size_01 link_hover overall_link">
